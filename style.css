@@ -1,0 +1,364 @@
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+    
+    } 
+    body{
+        height: 5000px;
+    }
+    
+    
+    .navv{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #3ba073;
+        height: 50px;
+        align-items: center;
+
+        }
+    .a{
+        margin: 20px;
+    }
+    .navv a{
+        text-decoration: none;
+        color: aliceblue;
+
+    }
+    .b{
+        border-bottom: 2px solid green;
+        border-top: 2px solid rgba(0, 128, 0, 0.268);
+        border-right: 2px solid rgba(0, 128, 0, 0.268);
+        border-left: 2px solid rgba(0, 128, 0, 0.268);
+
+        border-radius: 3px;
+    }
+    
+    .s2{
+        background-image: url("solar-panels-meadow\ 1.png");
+        height: 500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+
+    }
+    .d1{
+        height: 200px;
+        width: 350px;
+        color: aliceblue;
+        margin-left: 140px;
+
+
+    }
+
+    #i1{
+        height: 200px;
+        width: 430px;
+        color: aliceblue;
+    }
+    .butt{
+        margin-top: 100px;
+        margin-left: 145px;
+    }
+    .x{
+        width: 120px;
+        height: 30px;
+        border: 2px solid green;
+        color: aliceblue;
+        background-color: green;
+        border-radius: 10px;
+    }
+    .y{
+        width: 120px;
+        height: 30px;
+        border: 2px solid rgb(179, 187, 37);
+        color: aliceblue;
+        background-color: rgb(179, 187, 37);
+        border-radius: 10px;
+        margin-left: 15px;
+    }
+    .flexx{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-top: 50px;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+    .c1{
+        width: 300px;
+    }
+    .c2{
+        width: 340px;
+    }
+    .f{
+
+        display: flex;
+        flex-direction: row;
+        /* margin-left: 50px; */
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    #ii{
+        z-index: -1;
+    }
+
+
+
+    
+    .parent{
+        position: relative;
+        color: aliceblue;
+        font-size: 100px;
+    }
+
+    .std{
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+        border-radius: 8px;
+    }
+    
+    #p3{
+        margin-bottom: 50px;
+    }
+    #sec3{
+        background-image: url(8116\ 1.png);
+        height: 350px;
+    }
+    .sec4{
+        text-align: center;
+        
+
+    }
+    .imh{
+        box-shadow: .2px 0px 1px #aaaaaa;
+
+    }
+    .imh img{
+        width: 100%;
+    }
+    .imh h5{
+        margin: 5px;
+    }
+    .sec4 p{
+        
+        margin:0 200px;
+    }
+    .sec4 h1{
+        font-size: xx-large;
+    }
+    .sec5{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: 300px;
+        align-items: center;
+        align-content: center;
+    
+    }
+    .sec5 div{
+        height: 100%;
+        padding: 5px;
+        margin: 15px;
+        width: 300px;
+
+/      
+    }
+
+    .relative{
+        position: relative;
+        margin-top: 50px;
+        background-image: url(8116\ 1\ \(1\).png);
+        height: 400px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .abslute{
+        opacity: 0.70;
+        height: 210px;
+        width: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: black;
+        border-radius: 5px;
+        color: aliceblue;
+        text-align: center;
+
+    }
+    .abslute h2{
+        margin: 30px 0;
+    }
+.abslute p{
+    margin: 0 40px;
+
+}
+.ssss{
+    width: 100%;
+    height: 720px;
+    background-color:rgb(244, 248, 235);
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.aside{
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 310px;
+    height: 350px;
+
+}
+.color{
+    color: rgb(54, 118, 97);
+    margin: 10px;
+}
+.border{
+    border: 3px solid rgba(40, 75, 47, 0.268);
+    border-radius: 5px;
+
+}
+.margin{
+    margin-top: 20px;
+}
+
+#im{
+    margin: 15px;
+}
+.im{
+    margin-left: 15px;
+} 
+#bord{
+    height: 280px;
+}
+.aside h1{
+    font-size: xx-large;
+}
+.aside h4{
+    font-size: large;
+    margin-bottom: 5px;
+}
+#w{
+    width: 200px;
+} 
+
+span{
+    text-decoration: underline;
+}   
+.centerr {
+
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.centerr p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#inlinee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.m{
+    margin-left: 15px;
+    height: 320px;
+    background-color: #f1fcf7;
+    border-radius: 10px;
+    width: 290px;
+}
+.marg{
+    margin-bottom: 15px;
+}
+.arround{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.q{
+
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;    
+
+}
+.last2{
+    width: 100%;
+} 
+
+
+
+
+
+/* .mar{
+    /* margin-left:250px; */
+    /* margin-top: 150px;
+}
+.mar h1{
+    font-size: xx-large;
+}
+.mar p{
+    width: 275px;
+} */ 
+/* .aside h5{
+    margin: 10px;
+} 
+.div7{
+    display: flex;
+/* justify-content: center; */
+    /* margin-left:572px; */
+    /* flex-direction: row; */
+
+    /* justify-content: center; */
+
+
+/* .div8{
+    
+    margin: 20px;
+    width: 330px;
+    height: 330px;
+
+}
+#az{
+    margin-top: 0px;
+} 
+
+    
+.aw{
+    height: 290px;
+
+
+
+} */
+/* .back{
+
+    height: 400px;
+    
+text-align: center;}
+
+.last{
+    width: 1200px;
+}
+
+
+
+
+    
+    
